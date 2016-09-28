@@ -1,0 +1,95 @@
+@media screen and (min-width: 1000px) {
+    .main,.nav-wrap{
+        width: 980px;
+        margin: 0 auto;
+    }
+    .loginOrRegister{
+        width: 320px;
+        height: 200px;
+        min-height: 200px;
+        margin-top: -200px;
+        margin-left: -160px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .loginOrRegister{
+        width: 320px;
+        height: 200px;
+        min-height: 200px;
+        margin-top: -200px;
+        margin-left: -160px;
+    }
+        .main,.nav-wrap{
+            width: 720px;
+            margin: 0 auto;
+        }
+
+}
+@media screen and (max-width: 768px) {
+    .loginOrRegister{
+        width: 280px;
+        height: 200px;
+        min-height: 200px;
+        margin-top: -200px;
+        margin-left: -140px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        .main{
+            width: 440px;
+            margin: 0 auto;
+        }
+    }
+}
+
+::selection{
+    background-color: #0cc2b4;
+    color: #fff;
+}
+::-moz-selection{
+    background-color: #0cc2b4;
+    color: #fff;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: url("../images/bg.jpg") no-repeat top left;
+    background-size: cover;
+}
+.font{
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+}
+.bg-white{
+    background-color: rgba(255,255,255,0.6);
+}
+.btn{
+    width: 100%;
+}
+.loginOrRegister{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+}
+.form-control{
+    border: none;
+    box-shadow: none;
+}
+.font18{
+    font-size: 18px;
+}
+.padding25{
+    padding: 0 25%;
+}
+.border-top-none{
+    border-width: 0 1px 1px;
+}
+.display-none{
+    display: none;
+}
+.media-object{
+    width: 120px;
+    height: auto;
+    margin-bottom: 1em;
+}
